@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 0 100px;
+}
+.fashionTextSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  gap: 100px;
+}
+
+.fashionTextSectionMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fashionTextSectionMiddle > h1 {
+  color: #252525;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 80px;
+}
+.fashionTextSectionMiddle > p {
+  color: #252525;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 24px 0;
+}
+.fashionTextSectionMiddle > button {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 16px 32px;
+  border-radius: 24px;
+  background: #252525;
+}
+
+.fashionTextSectionLeft,
+.fashionTextSectionRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fashionTextSectionLeft > img:first-child {
+  margin-bottom: 32px;
+}
+.fashionTextSectionLeft > img:nth-child(3) {
+  margin-top: 56px;
+}
+
+.fashionTextSectionRight > img:first-child {
+  margin-bottom: 56px;
+}
+.fashionTextSectionRight > img:nth-child(2) {
+  margin-bottom: 32px;
+}
+
+/* fashionImgSection */
+.fashionImgSection {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 60px;
+}
+.fashionImgSectionLeft {
+  display: flex;
+  gap: 25px;
+  align-items: start;
+}
+.fashionImgSectionLeft div > p {
+  color: #252525;
+  font-family: "Times New Roman";
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 48px;
+  padding-bottom: 24px;
+  border-bottom: 6px solid #252525;
+  margin-bottom: 63px;
+}
+.fashionImgSectionLeftParag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 150px; */
+}
+.fashionImgSectionLeftParag > div {
+    width: 180px;
+}
+.fashionImgSectionLeftImg,
+.fashionImgSectionRightImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.fashionImgSectionRight {
+  display: flex;
+  gap: 25px;
+  align-items: end;
+}
+.fashionImgSectionRightText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    justify-content: end;
+}
+.fashionImgSectionRightText > div p {
+  color: #252525;
+  font-family: "Times New Roman";
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 48px;
+  padding-bottom: 24px;
+  border-bottom: 6px solid #252525;
+  margin-top: 63px;
+}
+.fashionImgSectionRightText > div {
+    width: 120px;
+}
