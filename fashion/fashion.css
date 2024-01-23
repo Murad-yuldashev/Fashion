@@ -3,23 +3,31 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container {
-  padding: 0 100px;
+
+button {
+  border: none;
+  outline: none;
 }
-.fashionTextSection {
+
+.container {
+  padding: 0 80px;
+}
+
+.fashion-text {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
   gap: 100px;
 }
 
-.fashionTextSectionMiddle {
+.fashion-text-middle {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.fashionTextSectionMiddle > h1 {
+
+.fashion-text-middle > h1 {
   color: #252525;
   text-align: center;
   font-family: "Times New Roman";
@@ -27,7 +35,8 @@
   font-weight: 700;
   line-height: 80px;
 }
-.fashionTextSectionMiddle > p {
+
+.fashion-text-middle > p {
   color: #252525;
   text-align: center;
   font-family: "Times New Roman";
@@ -36,7 +45,8 @@
   line-height: 32px;
   padding: 24px 0;
 }
-.fashionTextSectionMiddle > button {
+
+.fashion-text-middle > button {
   color: #fff;
   font-family: Poppins;
   font-size: 16px;
@@ -47,41 +57,52 @@
   background: #252525;
 }
 
-.fashionTextSectionLeft,
-.fashionTextSectionRight {
+.fashion-text-left,
+.fashion-text-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.fashionTextSectionLeft > img:first-child {
+
+.fashion-text-left > img:first-child {
   margin-bottom: 32px;
 }
-.fashionTextSectionLeft > img:nth-child(3) {
+
+.fashion-text-left > img:nth-child(3) {
   margin-top: 56px;
 }
 
-.fashionTextSectionRight > img:first-child {
+.fashion-text-right > img:first-child {
   margin-bottom: 56px;
 }
-.fashionTextSectionRight > img:nth-child(2) {
+
+.fashion-text-right > img:nth-child(2) {
   margin-bottom: 32px;
 }
 
-/* fashionImgSection */
-.fashionImgSection {
+/* fashion-img */
+.fashion-img {
   margin-top: 55px;
   display: flex;
   justify-content: center;
-  gap: 25px;
+  align-items: center;
   margin-bottom: 60px;
 }
-.fashionImgSectionLeft {
+
+.fashion-img-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.fashion-img-left {
   display: flex;
   gap: 25px;
   align-items: start;
 }
-.fashionImgSectionLeft div > p {
+
+.fashion-img-left div > p {
   color: #252525;
   font-family: "Times New Roman";
   font-size: 28px;
@@ -92,18 +113,21 @@
   border-bottom: 6px solid #252525;
   margin-bottom: 63px;
 }
-.fashionImgSectionLeftParag {
+
+.fashion-img-left-parag {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /* width: 150px; */
 }
-.fashionImgSectionLeftParag > div {
+
+.fashion-img-left-parag > div {
     width: 180px;
 }
-.fashionImgSectionLeftImg,
-.fashionImgSectionRightImg {
+
+.fashion-img-left-img,
+.fashion-img-right-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,19 +135,21 @@
   gap: 25px;
 }
 
-.fashionImgSectionRight {
+.fashion-img-right {
   display: flex;
   gap: 25px;
   align-items: end;
 }
-.fashionImgSectionRightText {
+
+.fashion-img-right-text {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     text-align: right;
     justify-content: end;
 }
-.fashionImgSectionRightText > div p {
+
+.fashion-img-right-text > div p {
   color: #252525;
   font-family: "Times New Roman";
   font-size: 32px;
@@ -134,6 +160,7 @@
   border-bottom: 6px solid #252525;
   margin-top: 63px;
 }
-.fashionImgSectionRightText > div {
+
+.fashion-img-right-text > div {
     width: 120px;
 }

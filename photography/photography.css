@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.photography-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 182px;
+}
+
+.photography-text h1 {
+  color: #060504;
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.photography-text h1 > span {
+  color: #ff0;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 25px;
+  position: relative;
+  cursor: pointer;
+}
+
+.photography-text h1 > span svg {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+
+.photography-text p {
+  color: #6f6f6f;
+  text-align: center;
+  font-family: Jost;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 19px;
+  width: 516px;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 63px;
+}
+
+.navbar ul li a {
+  color: #6f6f6f;
+  text-align: center;
+  font-family: Jost;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 131.25%;
+  text-transform: uppercase;
+}
+
+.navbar ul li:hover {
+    border-bottom: 1px solid #FFD115;
+}
+
+/* fashion images */
+.fashion-section {
+    margin-top: 51px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.fashion-images {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.fashion-images div {
+    display: flex;
+    gap: 33px;
+}
